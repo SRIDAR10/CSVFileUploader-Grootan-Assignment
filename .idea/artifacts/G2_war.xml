@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="G2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>G2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="G2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="G2:war exploded" />
+    </root>
+  </artifact>
+</component>
